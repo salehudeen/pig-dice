@@ -37,7 +37,14 @@ h3{
 .playarea{
   text-align:center;
 }
-.dice{
+.dice1{
+  display: inline-block;
+  text-align: center;
+  color:black ;
+  text-shadow: 5px 0 yellow;
+  background-image: url(../images/playarea.jpg);
+}
+.dice2{
   display: inline-block;
   text-align: center;
   color:black ;

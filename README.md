@@ -2,7 +2,7 @@
 #### {this application is a game }, {12/5/2019}
 #### By **{salehudeen}**
 ## Description
-{This is a game that playes with dices and people have to get to a totol of 100 in their dice. }
+{This is a game that playes with dices and people have to get to a totol of 100 in their dice. this is an online link to the game  https://salehudeen.github.io/pig-dice/ }
 Program Add player rolls a 1, they score nothing and it becomes the next player's turn.	User input: "1"	Output: "End Turn"
 Program Add player rolls any other number, it is added to their turn total and the player's turn continues.	User Input: "2 through 6"	Output: "+2 through 6 to score"
 Program Add player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.	Input: "Hold"	Output: round score is added next players turn.
