@@ -3,6 +3,10 @@
 #### By **{salehudeen}**
 ## Description
 {This is a game that playes with dices and people have to get to a totol of 100 in their dice. }
+Program Add player rolls a 1, they score nothing and it becomes the next player's turn.	User input: "1"	Output: "End Turn"
+Program Add player rolls any other number, it is added to their turn total and the player's turn continues.	User Input: "2 through 6"	Output: "+2 through 6 to score"
+Program Add player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.	Input: "Hold"	Output: round score is added next players turn.
+Program Add The first player to score 100 or more points wins.	Input: "100"	Output: "You win!"
 ## Setup/Installation Requirements
 * get access to my online git repository 
 * copy the clone or download link 
