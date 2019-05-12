@@ -29,7 +29,7 @@
           <button  class="p1roll"onclick="rolldice()">ROLL</button>
           <button onclick="">HOLD</button>
           <p id="status"></p>
-          <p id="diceTotal"></p>
+          <p id="diceTotal">Total</p>
     </div>
     <div class="dice">
       <p>Second pig<p>
@@ -38,7 +38,7 @@
           <button  class="p2roll"onclick="rolldice2()">ROLL</button>
           <button onclick="">HOLD</button>
           <p id="status2"></p>
-          <p id="dicetotal2"></p>
+          <p id="dicetotal2">Total</p>
     </div>
   </div>
 
@@ -64,22 +64,18 @@
 <script>
   function rolldice() {
     var totald1= document.getElementById(["die1"])
-    var diceTotal=[];
-    totald1.forEach(function(totald1){
-      diceTotal.push(totald1+d1);
-    })
     var die1 = document.getElementById('die1')
     var status = document.getElementById('status')
     var d1 = Math.floor(Math.random() * 6) + 1;
-    var total=["d1","d1"]
+    var total=[""]
     die1.innerHTML = d1;
     status.innerHTML = "you rolled" + d1;
-    diceTotal.innerHTML=diceTotal
+    diceTotal.innerHTML = total;
     if (d1 === 1) {
       status.innerHTML += "you got a one";
       $(".p1roll").hide();
       $(".p2roll").show();
-      alert("next player please")
+      alert("next player please  you rolled a ONE!")
     }
   }
 </script>
@@ -94,7 +90,7 @@
       status.innerHTML += "you got a one";
       $(".p2roll").hide();
       $(".p1roll").show();
-      alert("next player please")
+      alert("next player please you rolled a ONE!")
     }
   }
 </script>
