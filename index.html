@@ -85,13 +85,13 @@
     var d1 = Math.floor(Math.random() * 6) + 1;
     die1.innerHTML = d1;
     status.innerHTML = "you rolled" + d1;
-    diceTotal.innerHTML = d1+=d1;
     if (d1 === 1) {
       status.innerHTML += "you got a one";
       $(".p1roll").hide();
       $(".p2roll").show();
       alert("next player please  you rolled a ONE!")
     }
+      diceTotal.innerHTML =d1+=d1;
   }
 </script>
 <script>
@@ -102,13 +102,13 @@
     var d2 = Math.floor(Math.random() * 6) + 1;
     die2.innerHTML = d2;
     status.innerHTML = "you rolled" + d2;
-    diceTotal2.innerHTML = [d2+=d2];
     if (d2 === 1) {
       status.innerHTML += "you got a one";
       $(".p2roll").hide();
       $(".p1roll").show();
       alert("next player please you rolled a ONE!")
     }
+      diceTotal2.innerHTML = d2+=d2;
   }
 </script>
 

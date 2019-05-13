@@ -10,7 +10,7 @@ Program Add player chooses to "hold", their turn total is added to their score, 
 Program Add The first player to score 100 or more points wins.	Input: "100"	Output: "You win!"
 
 ## screenshot of the application
-![](rean.png)
+![](rean1.jpg)
 ## Setup/Installation Requirements
 * get access to my online git repository 
 * copy the clone or download link 
