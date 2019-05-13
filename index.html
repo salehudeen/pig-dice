@@ -20,6 +20,9 @@
     <h3>PRESS THE "PLAY" TO START!</h3>
     <input type="click" placeholder="PLAY" class="play">
   </div>
+  <br>
+  <br>
+  <br>
   <h4>PIG-DICE</h4>
   <div class="playarea">
     <div class="dice1">
@@ -27,7 +30,7 @@
           <div id="die1">0</div>
           <img class="img1" src="images/200.webp">
           <button  class="p1roll"onclick="rolldice()">ROLL</button>
-          <button onclick="">HOLD</button>
+          <button class="p1hold"onclick="">HOLD</button>
           <p id="status"></p>
           <p id="diceTotal">Total</p>
     </div>
@@ -36,7 +39,7 @@
           <div id="die2">0</div>
           <img class="img2" src="images/200.webp">
           <button  class="p2roll"onclick="rolldice2()">ROLL</button>
-          <button onclick="">HOLD</button>
+          <button  class="p2hold"onclick="">HOLD</button>
           <p id="status2"></p>
           <p id="dicetotal2">Total</p>
     </div>
@@ -93,6 +96,22 @@
       alert("next player please you rolled a ONE!")
     }
   }
+</script>
+<script>
+$(document).ready(function() {
+  $(".p1hold").click(function() {
+    $(".p1roll").hide();
+    $(".p2roll").show();
+  });
+});
+</script>
+<script>
+$(document).ready(function() {
+  $(".p2hold").click(function() {
+    $(".p2roll").hide();
+    $(".p1roll").show();
+  });
+});
 </script>
 <footer>MADE AND DEVELOPED BY SALEHUDEEN <img src="images/footer.webp">
 
