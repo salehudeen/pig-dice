@@ -1,3 +1,27 @@
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
 body {
   background-image: url(../images/back.jpeg);
 }
@@ -19,11 +43,12 @@ footer {
 }
 
 .play {
-  text-align: center;
   cursor: pointer;
+  width: 40%;
   border-radius: 30px;
   box-shadow: 0 0 10px yellow;
-
+  align-content: center;
+  text-align: center;
 }
 h3{
   color:yellow;
